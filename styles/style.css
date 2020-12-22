@@ -75,6 +75,7 @@
   left: 64px;
   z-index: 3;
   height: 32px;
+  background-image: url(../images/logo_place_header.svg);
 }
 
 .description {
@@ -199,9 +200,7 @@
 
 .feynman__subtitle {
   display: flex;
-  margin: 0;
-  position: relative;
-  top: 70px;
+  margin: 70px 0 0 0;
   z-index: 1;
   line-height: 51px;
   font-size: 36px;
@@ -304,6 +303,7 @@
 
 .logo_place_footer {
   height: 35px;
+  background-image: url(../images/logo_place_footer.svg);
 }
 
 .footer__author {
@@ -322,6 +322,8 @@
   margin: 0;
   font-weight: bold;
   padding-bottom: 20px;
+  line-height: 30px;
+  font-size: 18px;
 }
 
 .footer__column-links {
